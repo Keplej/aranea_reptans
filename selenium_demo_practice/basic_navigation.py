@@ -31,6 +31,6 @@ element_search_field.send_keys(Keys.ENTER)
 # print(browser.page_source)
 
 # This closes after operation completes
-# browser.close() # Close current tab
-# browser.quit() # will close the browser
+browser.close() # Close current tab
+browser.quit() # will close the browser
 
